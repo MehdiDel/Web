@@ -12,13 +12,13 @@ $admin=$admin['admin'];
 
 
 $mdp=sha1($mdp);
-$res=CONNECT::connexion($email,$mdp);
+$connexion=CONNECT::connexion($email,$mdp);
 
 
 
 
 
-if ($res==1 and $admin>0){
+if ($connexion==1 and $admin>0){
 
 	
 	
@@ -27,7 +27,7 @@ if ($res==1 and $admin>0){
 
 	header("Location: ../vue/reussi_connex_admin.php");
 }
-elseif ($res==1) {
+elseif ($connexion==1) {
 
 	setcookie('email', $email, time()+24*3600, "/");
 	header("Location: ../vue/reussi_connex.php");
