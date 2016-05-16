@@ -8,7 +8,7 @@ public static function ajouter_chauffeur($nom,$prenom,$adresse,$mail)
 		require_once("BD_connexion.php");
  		$bdd=connexion();
 
-		//Insertion d'un chauffeur dans la BD grace au paramètre reçus
+		
 		$req = $bdd->prepare('INSERT INTO chauffeur(nom,prenom,adresse,mail) VALUES(:nom,:prenom,:adresse,:mail)');
 
 		

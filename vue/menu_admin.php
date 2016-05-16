@@ -21,13 +21,15 @@
       <a id="logo-container" href="reussi_connex_admin.php" class="brand-logo white-text">Nice Driver</a>
       <ul class="right hide-on-med-and-down ">
         <li><a href="reussi_connex_admin.php" class="white-text"> Acceuil </a></li>
+        <li><a href="recherche_inscrit.php" class="white-text"> Rechercher</a></li>
         <li><a href="tableau_de_bord.php" class="white-text"> Tableau de bord </a></li>
         <li><a href="mission.php" class="white-text">Gestion </a></li>
         <li><a  href="../controller/deconnexion.php"class="waves-effect waves-light btn-large"><i class="small material-icons right">supervisor_account</i>Déconnexion</a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-        <li><a href="reussi_connex_admin.php" class="white-text"> Acceuil </a></li>
+        <li><a href="reussi_connex_admin.php"> Acceuil </a></li>
+         <li><a href="recherche_inscrit.php" > Rechercher</a></li>
         <li><a href="tableau_de_bord.php"> Tableau de bord</a></li>
         <li><a href="mission.php">Gestion </a></li>
         <li><a href="../controller/deconnexion.php">Déconnexion</a></li>
